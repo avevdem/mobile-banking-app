@@ -39,7 +39,7 @@ mobile-banking-app/
 ## 🚀 Getting Started
 
 ### 📌 Live Demo:
-Coming soon ~  
+https://project-bank-app.netlify.app/register.html
 
 ### 📥 Run Locally:
 
