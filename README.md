@@ -15,7 +15,7 @@ A responsive, multi-page front-end prototype of a mobile banking application bui
 ---
 
 ## 📁 Project Structure
-
+```
 mobile-banking-app/
 ├── index.html ← Main home page
 ├── transfer.html ← Transfer options
@@ -25,7 +25,7 @@ mobile-banking-app/
 ├── register.html ← Registration screen with validations
 ├── style.css ← Unified app styling
 ├── app.js ← All interface logic
-
+``` 
 ---
 
 ## 🔧 Technologies Used
