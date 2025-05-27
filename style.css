@@ -1,0 +1,204 @@
+/* style.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background: #eaf3ed;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.balance {
+  background: #f5fbf7;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.balance h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #777;
+}
+.balance .amount {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+}
+.quick-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.action {
+  flex: 1;
+  margin: 0 5px;
+  background: #f5fbf7;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.action:hover {
+  background: #dff0e3;
+}
+.transactions h4 {
+  margin: 10px 0;
+}
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+.transaction .desc {
+  display: flex;
+  flex-direction: column;
+}
+.transaction .amount {
+  font-weight: bold;
+}
+.positive {
+  color: green;
+}
+.negative {
+  color: red;
+}
+.transfer-options {
+  margin: 20px 0;
+}
+.transfer-option {
+  background: #f5fbf7;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.transfer-option:hover {
+  background: #dff0e3;
+}
+.most-used {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+.user {
+  background: #eee;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+.back-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.input-field {
+  width: 90%;
+  padding: 15px;
+  margin: 15px 0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.bill-icons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.bill-icon {
+  flex: 1;
+  margin: 5px;
+  background: #f5fbf7;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.bill-icon span {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+.biller-list {
+  background: #f5fbf7;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.biller-item {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.biller-item:last-child {
+  border-bottom: none;
+}
+
+.primary-btn {
+  width: 100%;
+  padding: 15px;
+  background-color: #2d80f4;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* for more page*/
+.more-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+.more-option {
+  background: #f5fbf7;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.more-option:hover {
+  background: #dff0e3;
+}
+
+/*register.html*/
+.container p a {
+  color: #2d80f4;
+  text-decoration: none;
+}
+#errorMsg {
+  font-size: 14px;
+}

@@ -1,0 +1,57 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile Banking App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Good morning, Emma</h2>
+    <div class="balance">
+      <h3>Balance Overview</h3>
+      <div class="amount">$5,750.00</div>
+    </div>
+    <div class="quick-actions">
+      <div class="action" onclick="window.location.href='transfer.html'">Transfer</div>
+      <div class="action" onclick="window.location.href='pay.html'">Pay Bill</div>
+      <div class="action" onclick="window.location.href='more.html'">More</div>
+    </div>
+    <div class="transactions">
+      <h4>Recent Transactions</h4>
+      <div class="transaction">
+        <div class="desc">
+          <span>Grocery Store</span>
+          <small>Today</small>
+        </div>
+        <div class="amount negative">- $54.32</div>
+      </div>
+      <div class="transaction">
+        <div class="desc">
+          <span>John Doe</span>
+          <small>Yesterday</small>
+        </div>
+        <div class="amount positive">+ $1,200.00</div>
+      </div>
+      <div class="transaction">
+        <div class="desc">
+          <span>Streaming Service</span>
+          <small>Apr 20</small>
+        </div>
+        <div class="amount negative">- $12.99</div>
+      </div>
+      <div class="transaction">
+        <div class="desc">
+          <span>Electricity Bill</span>
+          <small>Apr 18</small>
+        </div>
+        <div class="amount negative">- $89.74</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

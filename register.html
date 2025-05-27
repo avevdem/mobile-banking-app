@@ -1,0 +1,28 @@
+<!-- register.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Create Account</h2>
+    <p>Register to get started</p>
+
+    <input type="text" id="regUsername" class="input-field" placeholder="Username" />
+    <input type="email" id="regEmail" class="input-field" placeholder="Email" />
+    <input type="password" id="regPassword" class="input-field" placeholder="Password" />
+    <input type="password" id="regConfirm" class="input-field" placeholder="Confirm Password" />
+
+    <button class="primary-btn" onclick="registerUser()">Register</button>
+    <p><a href="login.html">Already have an account?</a></p>
+
+    <p id="errorMsg" style="color: red; text-align:center; margin-top: 10px;"></p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
